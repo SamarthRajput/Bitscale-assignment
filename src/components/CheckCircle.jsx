@@ -1,3 +1,4 @@
+// The CheckCircle component that is reused in every card in the 1st list
 export function CheckCircle(){
     return <div className="check-circle">
         <svg width="14px" height="14px" top="2.23px" left="2.23px" viewBox="0 0 18 18" fill="none">

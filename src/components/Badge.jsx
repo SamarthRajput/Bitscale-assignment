@@ -1,3 +1,4 @@
+// the reused Badge component that contains discount icon
 export function Badge(){
     return  <div className="badge">
 

@@ -8,10 +8,13 @@ import { GrowthCard2 } from './components/GrowthCard2'
 function App() {
 
   return (
+    // the main div that contains components of the website 
     <div className='test-assignment'>
 
+      {/* the Call to Action Button Component */}
       <CtaButton></CtaButton>
 
+      {/* All the four card components */}
       <div className='frame-100'>
         <FreeCard1 ></FreeCard1>
         <GrowthCard1 ></GrowthCard1>

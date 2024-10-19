@@ -1,10 +1,10 @@
 import { Badge } from "./Badge";
-import { Badge2 } from "./Badge2";
 
 export function GrowthCard2(){
     return <div className="growth-card-2">
         <div className="content">
 
+            {/* Pricing and Heading of the growth card */}
             <div className="pricing-and-heading2">
                 <div className="frame-90">
                     <div className="heading3">Booster</div>
@@ -28,6 +28,7 @@ export function GrowthCard2(){
                 </div>
             </div>
 
+            {/* The 1st list of the growth card */}
             <div className="list3">
 
                 <div className="item" >
@@ -88,9 +89,10 @@ export function GrowthCard2(){
 
             </div>
 
-
+            {/* Coloured line in the growth card */}
             <div className="line2"></div>
 
+            {/* The 2nd list of the growth card */}
             <div className="list2">
                 <div className='list2-item'>
                     <BoldDot2 />
@@ -114,6 +116,7 @@ export function GrowthCard2(){
                 </div>
             </div>
 
+            {/* The button at the end of the growth card  */}
             <div className="button-end-2">
                 <div className='button-text2'>
                     <div>Continue with Growth</div>
@@ -135,5 +138,11 @@ function CheckCircle2(){
 function BoldDot2(){
     return <div className="bold-dot2">
         &#x2022;
+    </div>
+}
+
+function Badge2(){
+    return <div className="badge-2">
+        <div className="badge-text2">Popular</div>
     </div>
 }

@@ -42,7 +42,6 @@
   padding: 3px 5px 3px 5px;
   gap: 2px;
   border-radius: 8.58px;
-  
 }
 
 .anuual-cta{
@@ -174,7 +173,6 @@
 }
 
 .button-text{
-  font-family: Inter;
   font-size: 12.47px;
   font-weight: 500;
   line-height: 18.71px;
@@ -196,7 +194,6 @@
 }
 
 .heading{
-  font-family: Inter;
   font-size: 17.82px;
   font-weight: 500;
   line-height: 26.73px;
@@ -214,7 +211,6 @@
   display: inline;
   width: 147px;
   height: 37px;
-  font-family: Inter;
   font-size: 36.99px;
   font-weight: 800;
   line-height: 36.99px;

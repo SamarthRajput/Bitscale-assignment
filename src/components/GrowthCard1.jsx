@@ -6,6 +6,7 @@ export function GrowthCard1(){
     return <div className="growth-card">
         <div className="content">
 
+            {/* Pricing and Heading of the growth card */}
             <div className="pricing-and-heading2">
 
                 <div className="frame-93">
@@ -31,6 +32,7 @@ export function GrowthCard1(){
 
             </div>
 
+            {/* The 1st list of the growth card */}
             <div className="list3">
 
                 <div className="item" >
@@ -69,8 +71,10 @@ export function GrowthCard1(){
                 </div>
             </div>
 
+            {/* Coloured line in the growth card */}
             <div className="line"></div>
 
+            {/* The 2nd list of the growth card */}
             <div className="list2">
                 <div className='list2-item'>
                     <BoldDot />
@@ -94,6 +98,7 @@ export function GrowthCard1(){
                 </div>
             </div>
 
+            {/* The button at the end of the growth card  */}
             <div className="button-end">
                 <div className='button-text'>
                     <div>Continue with Booster</div>

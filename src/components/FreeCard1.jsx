@@ -4,6 +4,7 @@ export function FreeCard1(){
     return <div className="free-card">
         <div className="content">
 
+            {/* Pricing and Heading of the free card */}
             <div className="pricing-and-heading">
 
                 <div className="pricing-card-header">
@@ -20,6 +21,7 @@ export function FreeCard1(){
 
             </div>
 
+            {/* The 1st list of the free card */}
             <div className="list">
                 <div className="item">
                     <CheckCircle ></CheckCircle>
@@ -53,8 +55,10 @@ export function FreeCard1(){
 
             </div>
 
+            {/* Coloured line in the free card */}
             <div className="line"></div>
 
+             {/* The 2nd list of the free card */}
             <div className="list2">
                 <div className='list2-item'>
                     <BoldDot />
@@ -64,6 +68,7 @@ export function FreeCard1(){
                 </div>
             </div>
 
+            {/* The button at the end of the free card  */}
             <div className="button-end">
                 <div className='button-text'>
                     <div>Try Now</div>
