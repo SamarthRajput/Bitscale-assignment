@@ -31,7 +31,7 @@ export function GrowthCard1(){
 
             </div>
 
-            <div className="list">
+            <div className="list3">
 
                 <div className="item" >
                     <CheckCircle3 />
@@ -89,7 +89,7 @@ export function GrowthCard1(){
                 <div className='list2-item'>
                     <BoldDot />
                     <div className='list2-text'>
-                        Personalized outreach at scale
+                    Personalized outreach at <br/> scale
                     </div>
                 </div>
             </div>

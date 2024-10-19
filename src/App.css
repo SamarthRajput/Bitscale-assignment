@@ -2,7 +2,7 @@
   width: 1280px;
   height: 1098.02px;
   top: -40px;
-  padding: 16px 70px 24px 70px;
+  padding: 0px 70px 0px 70px;
   display: grid;
   margin: auto;
   position: relative;
@@ -18,11 +18,11 @@
 }
 
 .cta{
+  position: relative;
   background: #E1EFFE;
   width: 196.34px;
   height: 59.64px;
-  top: 690px;
-  left: 573px;
+  left: -33px;
   padding: 4px 16px 4px 4px;
   gap: 9.61px;
   border-radius:9.61px;
@@ -36,11 +36,13 @@
   align-items: center;
   justify-content: center;
   background: #FFFFFF;
+  cursor: pointer;
   width: 109.73px;
   height: 51.64px;
   padding: 3px 5px 3px 5px;
   gap: 2px;
   border-radius: 8.58px;
+  
 }
 
 .anuual-cta{
@@ -48,11 +50,12 @@
   align-items: center;
   justify-content: center;
   padding: 3px 5px 3px 5px;
+  cursor: pointer;
 }
 
 .frame-100 {
   width: 1180px;
-  padding: 24px 24px 24px 24px;
+  padding: 0px 24px 24px 24px;
   gap: 20px;
   display: flex;
   flex-direction: row;
@@ -62,7 +65,7 @@
   background:#FFFFFF;
   width: 280px;
   height: 812.77px;
-  padding: 24px 24px 24px 24px;
+  padding: 24px 24px 0px 24px;
   border-radius: 7.13px 7.13px 7.13px 7.13px;
   border: 0.89px solid #E5E7EB;
   box-shadow: 0px 1.78px 3.56px -1.78px #0000000D;
@@ -72,7 +75,7 @@
 .growth-card{
   width: 280px;
   height: 812.77px;
-  padding: 24px 24px 24px 24px;
+  padding: 24px 24px 0px 24px;
   gap: 0px;
   border-radius: 7.13px 7.13px 7.13px 7.13px;
   background: #FFFFFF;
@@ -84,7 +87,7 @@
 .growth-card-2{
   width: 280px;
   height: 812.77px;
-  padding: 24px 24px 24px 24px;
+  padding: 24px 24px 0px 24px;
   border-radius: 7.13px 7.13px 7.13px 7.13px;
   background: linear-gradient(180deg, #1E429F 0%, #0B1839 100%);
   border: 0.89px solid #1A56DB;
@@ -111,6 +114,14 @@
   flex-direction: column;
   width: 232px;
   height: 412px;
+  gap: 14.25px;
+}
+
+.list3{
+  display: flex;
+  flex-direction: column;
+  width: 232px;
+  height: 401.29px;
   gap: 14.25px;
 }
 

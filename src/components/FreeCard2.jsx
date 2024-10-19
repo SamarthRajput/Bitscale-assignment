@@ -21,7 +21,7 @@ export function FreeCard2(){
 
             </div>
 
-            <div className="list">
+            <div className="list3">
                 <div className="item">
                     <CheckCircle />
                     <div className="item-text">
