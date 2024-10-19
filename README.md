@@ -14,3 +14,8 @@ Completed the Bitscale Assignment
    `npm install`
 2. Now run the command to start the project
     `npm run dev`
+
+   
+
+https://github.com/user-attachments/assets/6568696e-49c3-4511-8991-387c2afa3a2d
+
