@@ -1,12 +1,11 @@
 .test-assignment {
   width: 1280px;
   height: 1098.02px;
-  top: -283px;
-  left: -359px;
+  top: -40px;
   padding: 16px 70px 24px 70px;
-  gap: 32px;
   display: grid;
   margin: auto;
+  position: relative;
 }
 
 .frame-98{
@@ -53,8 +52,7 @@
 
 .frame-100 {
   width: 1180px;
-  height: 836.77px;
-  padding: 0px 0px 24px 0px;
+  padding: 24px 24px 24px 24px;
   gap: 20px;
   display: flex;
   flex-direction: row;
@@ -273,6 +271,13 @@
   color:  #6B7280;
 }
 
+.bold-dot2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:  #F9FAFB;
+}
+
 .list2-item{
   display: flex;
   align-items: center;
@@ -457,4 +462,57 @@
   line-height: 18.71px;
   text-align: center;
   color: #1F2A37;
+}
+
+.check-circle2{
+  padding: 2.23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.badge{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 76.85px;
+  padding: 3.56px 8.91px 3.56px 10.69px;
+  gap: 3.56px;
+  border-radius: 14.25px 14.25px 14.25px 14.25px;
+  background-color: #ECFDF3;
+}
+
+.badge-text{
+  color: #027A48;
+  font-family: Lato, sans-serif;
+  font-size: 12.47px;
+  font-weight: 500;
+  line-height: 14.97px;
+  text-align: center;
+}
+
+.badge-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62.6px;
+  height: 22.13px;
+  gap: 3.56px;
+  border-radius: 14.25px 14.25px 14.25px 14.25px;
+  background: #CEE0FF;
+}
+
+.frame-90{
+  display: flex;
+  justify-content: space-between;
+}
+
+.badge-text2{
+  font-family: Lato, sans-serif;
+  font-size: 12.47px;
+  font-weight: 500;
+  line-height: 14.97px;
+  text-align: center;
+  color: #053D99;
 }
